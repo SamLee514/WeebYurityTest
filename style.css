@@ -15,15 +15,17 @@ html {
 
 @media only screen and (max-width: 320px) {
     html {
-        background-image: url('https://mfiles.alphacoders.com/674/674044.jpg'),
-        background-size: contain;
+        /* background-image: url('https://mfiles.alphacoders.com/674/674044.jpg'); */
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
 
 @media only screen and (max-width: 768px) {
     html {
-        background-image: url('https://mfiles.alphacoders.com/674/674044.jpg'),
-        background-size: contain;
+        /* background-image: url('https://mfiles.alphacoders.com/674/674044.jpg'); */
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
 
