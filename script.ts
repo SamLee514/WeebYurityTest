@@ -98,10 +98,10 @@ const questions = {
         "Do you unironically consider yourself a NEET or a hikikomori, or has anyone else ever called you that?",
         "Do you prefer to shun real human contact in favor of consuming anime/manga?",
         "Have you ever seriously considered jumping in front of a truck so you'll be reincarnated as a fantasy/video-game hero?",
-        "Have you ever stalked a seiyuu, mangaka or anime director?",
-        "Have you ever blackmailed a seiyuu, mangaka or anime director?",
-        "Have you ever kidnapped a seiyuu, mangakka or anime director?",
-        "Are you a professional seiyuu, mangaka or anime director?"
+        "Have you ever stalked a seiyuu, mangaka or someone directly involved in the creation of anime/manga?",
+        "Have you ever blackmailed a seiyuu, mangaka or someone directly involved in the creation of anime/manga?",
+        "Have you ever kidnapped a seiyuu, mangaka or someone directly involved in the creation of anime/manga?",
+        "Are you a professional seiyuu, mangaka or someone directly involved in the creation of anime/manga?"
 
         // There should be text right before the submit button like "your next line is: calculate my scores!"
     ]
