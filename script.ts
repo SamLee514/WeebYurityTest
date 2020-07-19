@@ -49,7 +49,7 @@ const questions = {
         "Have you ever run away from your responsibilities or wished you could stop time so you could watch more anime?",
         "Have you ever taken a stand against someone for criticizing anime?",
         "Oof were those last two questions JoJo references?",
-        "Do you know more historical figures/mythological beings through anime/manga representations of them than actual historical figures/mythological beings?",
+        "Do you know more historical/mythological figures through anime/manga representations of them than through the actual historical/mythological figures?",
         "Do you have a waifu?",
         "Have you ever referred to someone else's waifu as 'trash'?",
         "Do you understand the terms 'tsundere' and 'yandere'?",
