@@ -1,5 +1,3 @@
-// import * as data from './questions.json';
-
 const questions = {
     "title":"Questions",
     "description":"List of questions for the test",
@@ -109,7 +107,7 @@ const questions = {
     ]
 }
 
-function randomDateRange(start: Date, end: Date) {
+function randomDateRange(start, end) {
     const mlist = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ];
     const date1 = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
     const monthNum1 = date1.getMonth();
@@ -129,7 +127,7 @@ var count = 1;
 var score = 9.23;
 questions.questions.map(question => {
     // $(`<p><input type="checkbox">${question}</input></p>`).appendTo('#checklist'); 
-    var color: string;
+    var color;
     if (count % 2 == 1) {
         color = 'white'
     } else {
@@ -168,7 +166,7 @@ questions.questions.map(question => {
 // $( '#form' ).submit( e => {
 const calculateScore = () => {
     const score = document.querySelectorAll('input[type="checkbox"]:checked').length;
-    var message: string;
+    var message;
     console.log('Your score is:', score)
     if (score == 0) {
         message = "Wow really? That's kind of...disappointing. Congrats on your uncorrupted life I guess."
