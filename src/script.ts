@@ -109,7 +109,7 @@ const questions = {
     ]
 }
 
-function randomDateRange(start, end) {
+function randomDateRange(start: Date, end: Date) {
     const mlist = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ];
     const date1 = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
     const monthNum1 = date1.getMonth();
@@ -129,7 +129,7 @@ var count = 1;
 var score = 9.23;
 questions.questions.map(question => {
     // $(`<p><input type="checkbox">${question}</input></p>`).appendTo('#checklist'); 
-    var color;
+    var color: string;
     if (count % 2 == 1) {
         color = 'white'
     } else {
@@ -168,7 +168,7 @@ questions.questions.map(question => {
 // $( '#form' ).submit( e => {
 const calculateScore = () => {
     const score = document.querySelectorAll('input[type="checkbox"]:checked').length;
-    var message;
+    var message: string;
     console.log('Your score is:', score)
     if (score == 0) {
         message = "Wow really? That's kind of...disappointing. Congrats on your uncorrupted life I guess."
