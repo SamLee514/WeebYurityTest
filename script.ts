@@ -174,7 +174,7 @@ const calculateScore = () => {
         message = "You have a long way to go, normie. Go watch the English dub of Bleach or something.";
     } else if (10 <= score && score < 40) {
         message = "Welcome to the real world, weeblet. You're about 3 anime conventions and a collectible box set away from the deep end.";
-    } else if (40 <= score and score < 80) {
+    } else if (40 <= score && score < 80) {
         message = "Ah, finally a person of culture. You're a comrade to the rest of us, and a reject to polite society. I'd invest in some deoderant soon, by the way.";
     } else if (80 <= score && score < 95) {
         message = "Well this is a little concerning. Have you looked into going outside? It's a wonderful 3-dimensional world out there.";
