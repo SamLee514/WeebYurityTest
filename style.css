@@ -15,12 +15,14 @@ html {
 
 @media only screen and (max-width: 320px) {
     html {
+        background-image: url('https://mfiles.alphacoders.com/674/674044.jpg'),
         background-size: contain;
     }
 }
 
 @media only screen and (max-width: 768px) {
     html {
+        background-image: url('https://mfiles.alphacoders.com/674/674044.jpg'),
         background-size: contain;
     }
 }
