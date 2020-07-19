@@ -41,7 +41,7 @@ const questions = {
         "Have you ever appended cat noises to the end of your sentences ~nyaan~",
         "Are you subscribed to a streaming service primarily for the anime they have?",
         "Is most of the content you consume in a language you don't speak natively?",
-        "Have you ever attempted to (or succeeded in) learning Japanese because of the content you consume?",
+        "Have you ever attempted to learn Japanese because of the content you consume?",
         "Have you ever taken a formal course (Duolingo doesn't count) in Japanese because of the content you consume?",
         "Have you ever majored or minored in Japanese because of the content you consume?",
         "Have you ever visited Japan primarily because of the content you consume?",
