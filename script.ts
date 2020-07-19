@@ -165,20 +165,20 @@ questions.questions.map(question => {
 
 // $( '#form' ).submit( e => {
 const calculateScore = () => {
-    const score = document.querySelectorAll('input[type="checkbox"]:checked').length;
+    const score = 100 - document.querySelectorAll('input[type="checkbox"]:checked').length;
     var message;
     console.log('Your score is:', score)
-    if (score == 0) {
+    if (score == 100) {
         message = "Wow really? That's kind of...disappointing. Congrats on your uncorrupted life I guess."
-    } else if (0 < score && score < 10) {
+    } else if (90 < score && score < 100) {
         message = "You have a long way to go, normie. Go watch the English dub of Bleach or something.";
-    } else if (10 <= score && score < 40) {
+    } else if (60 < score && score <= 90) {
         message = "Welcome to the real world, weeblet. You're about 3 anime conventions and a collectible box set away from the deep end.";
-    } else if (40 <= score && score < 80) {
+    } else if (20 < score && score <= 60) {
         message = "Ah, finally a person of culture. You're a comrade to the rest of us, and a reject to polite society. I'd invest in some deoderant soon, by the way.";
-    } else if (80 <= score && score < 95) {
+    } else if (5 < score && score <= 20) {
         message = "Well this is a little concerning. Have you looked into going outside? It's a wonderful 3-dimensional world out there.";
-    } else if (95 <= score && score < 100) {
+    } else if (0 < score && score <= 5) {
         message = "Ok, that's just kind of gross. I'd ask you not to reproduce but it doesn't look like you'd have a shot at that anyway.";
     } else {
         message = "FBI? Yes this degenerate right here. Needs to be isekai'd stat.";
