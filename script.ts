@@ -91,7 +91,7 @@ const questions = {
         "Have you ever made a translation for a manga or a sub for an anime?",
         "Have you ever made a dub for an anime?",
         "Have you ever made a compilation video of a seiyuu's work?",
-        "Have you ever intentionally spent the night at an cyber-cafe?",
+        "Have you ever intentionally spent the night at a cyber-cafe?",
         "Have you ever intentionally spent more than a week in a cyber-cafe?",
         "Do you currently intentionally live in a cyber-cafe?",
         "Do you unironically consider yourself a NEET or a hikikomori, or has anyone else ever called you that?",
